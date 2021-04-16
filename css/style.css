@@ -1,0 +1,131 @@
+#cta{
+    background-color: #b3a1a4;
+    text-align: center;
+    padding: 5% 10%;
+    line-height: 1.5;
+}
+#title{
+    background-color: #b3a1a4;
+}
+#features{
+    margin: 6rem;
+    text-align: center;
+    padding: 3%;
+}
+#press{
+    background-color: #b3a1a4;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#pricing{
+    padding: 5% 10%;
+    text-align: center;
+}
+#testimonials{
+    text-align: center;
+    background-color: #b3a1a4;
+}
+#footer{
+    background-color: #343a40;
+    text-align: center;
+    padding: 2.5% 2% 1%;
+}
+body{
+    font-family: "Montserrat";
+}
+h1{
+    font-family: "Montserrat Black";
+    line-height: 1.5;
+    font-size: 4rem;
+    color: black;
+}
+h2{
+    font-family: "Montserrat Bold";
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+h3{
+    font-family: "Montserrat Bold";
+    font-weight: 600;
+}
+p{
+    color: #8f8f8f;
+    margin-top: 2%;
+}
+.container-fluid{
+    padding: 3% 10%;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.navbar-item{
+    padding: 0 25px;
+}
+.button-download{
+    margin: 5% 3% 5% 0;
+}
+.button-sign-up{
+    margin: 3%;
+}
+.feature-item{
+    padding: 15px;
+}
+.icon{
+    color:#b3a1a4;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #212529;
+}
+.testimonial-pic{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.pricing-col{
+    margin-top: 3%;
+
+}
+.card-header{
+    background-color: #b3a1a4;
+}
+.sign-up{
+    width: 70%;
+}
+.footer-icon{
+    color: grey;
+    padding:0 12px;
+}
+.footer-icon:hover{
+    color: #b3a1a4;
+}
+@media(max-width: 992px){
+    #title{
+        text-align: center;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    .navbar-collapse{
+        text-align: left;
+    }
+}
+@media(max-width: 767px){
+    .pricing-col{
+        padding: 3% 15%;
+    }
+}
